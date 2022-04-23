@@ -13,7 +13,7 @@ const Getstarted = () => {
           placeholder="Email address"
         />
         <button className="submitBtn" type="submit">
-          Get Started <i class="ri-arrow-right-s-line arrow__line"></i>
+          Get Started <i className="ri-arrow-right-s-line arrow__line"></i>
         </button>
       </form>
     </div>

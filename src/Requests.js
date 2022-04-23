@@ -1,5 +1,5 @@
-const API_KEY = 'cf103a8369add6dd90594a095c18616f';
-const initialURL = 'https://api.themoviedb.org/3' // u append the list urls to it
+export const API_KEY = 'cf103a8369add6dd90594a095c18616f';
+export const initialURL = 'https://api.themoviedb.org/3' // u append the list urls to it
 
 const requests = {
     fetchTrending: `/trending/all/week?api_key=${API_KEY}&language=en-US`,
