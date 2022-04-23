@@ -1,0 +1,36 @@
+
+
+.movieItem{
+    display: flex;
+    overflow-x: scroll;
+    justify-content: space-between;
+    
+}
+
+.movie{
+    margin-bottom: 25px;
+}
+.image{
+    height: 170px; 
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 350px;
+    margin-right: 10px;
+    margin-bottom: 10px
+}
+img{
+    object-fit:cover;
+    height: 100%;
+    width: 100%;
+}
+p{
+    font-size: 13px;
+    text-align: center;
+    color: #fff;
+}
+h3{
+    color: #fff;
+    margin-bottom: 10px;
+}

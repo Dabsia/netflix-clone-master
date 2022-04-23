@@ -1,0 +1,16 @@
+.moviesHolder{
+    padding: 20px;
+    background-color: rgb(24,24,24);
+}
+.movie_container{
+    width: 50%;
+    margin-bottom: 3rem;
+}
+.movie_container__text{
+    color: #fff;
+    font-size: 3rem;
+}
+.movie_container__desc{
+    text-align: left;
+    font-size: 1.3rem;
+}
