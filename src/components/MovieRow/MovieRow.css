@@ -1,4 +1,6 @@
-
+.movieHolder::-webkit-scrollbar{
+    display: none;
+}
 
 .movieItem{
     display: flex;
