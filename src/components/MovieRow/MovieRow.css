@@ -16,14 +16,14 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 350px;
+    width: 310px;
     margin-right: 10px;
     margin-bottom: 10px
 }
 img{
-    object-fit:cover;
     height: 100%;
     width: 100%;
+    object-fit: cover;
 }
 p{
     font-size: 13px;

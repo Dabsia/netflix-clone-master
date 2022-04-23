@@ -1,6 +1,8 @@
 .moviesHolder{
     padding: 20px;
     background-color: rgb(24,24,24);
+    height: 100vh;
+    overflow-y: scroll;
 }
 .movie_container{
     width: 50%;
