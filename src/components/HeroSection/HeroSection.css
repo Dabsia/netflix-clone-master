@@ -1,0 +1,31 @@
+.hero__section{
+    height: 65vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    margin: auto;
+}
+
+.heroSection__Header{
+    font-size: 53px;
+    width: 550px;
+    text-align: center;
+    margin-bottom: 10px;
+}
+.heroSection__desc{
+    font-size: 25px;
+    text-align: center;
+    margin-bottom: 15px;
+}
+.heroSection__text{
+    font-size: 18px;
+    text-align: center;
+}
+
+@media screen and (max-width: 500px)  {
+    .hero__section {
+        width: 80%;
+    }
+}

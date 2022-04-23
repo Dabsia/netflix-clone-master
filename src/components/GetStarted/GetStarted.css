@@ -1,0 +1,54 @@
+.formContainer{
+    width: 100%;
+    margin-top: 20px;
+    
+}
+
+.emailInput{
+    height: 54px;
+    width: 70%;
+    padding-left: 10px;
+    outline: none;
+    border: none;
+    font-size: 16px;
+    margin-top: 3px;
+    
+}
+
+.emailInput:focus{
+    border: 1px solid rgb(82, 214, 247);
+}
+.submitBtn{
+    height: 55px;
+    padding-bottom: 2px;
+    width: 30%;
+    outline: none;
+    font-size: 18px;
+    background-color: var(--primary_color);
+    cursor: pointer;
+    color: #fff;
+    border: none;
+
+}
+.arrow__line{
+    font-size: 17px
+}
+
+@media screen and (max-width: 500px) {
+    .emailInput{
+        height: 45px;
+        width: 100%;
+        padding-left: 10px;
+        font-size: 16px;
+        margin-top: 3px;
+        
+    }
+    .submitBtn{
+        height: 45px;
+        
+        width: 50%;
+        outline: none;
+        font-size: 16px;
+    
+    }
+}

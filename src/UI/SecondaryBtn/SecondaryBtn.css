@@ -1,0 +1,11 @@
+.secondaryBtn{
+    height: 35px;
+    width: 90px;
+    font-size: 18px;
+    border: none;
+    outline: none;
+    margin-top: 45px;
+    background-color: var(--primary_color);
+    color: #fff;
+    border-radius: 5px;
+}
